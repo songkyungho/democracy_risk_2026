@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="ko"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex, nofollow, noarchive"><meta name="referrer" content="no-referrer"><title>AI 시대 정치·민주주의 위험 자문</title>
+<style>*{box-sizing:border-box}body{margin:0;min-height:100vh;display:grid;place-items:center;background:#474284;color:#f4f2eb;font:17px/1.6 "Apple SD Gothic Neo","Noto Sans KR",system-ui,sans-serif}
+form{width:min(340px,88vw);text-align:center}h1{font-size:22px;margin:0 0 4px}p{margin:0 0 18px;color:#c9c5dd;font-size:15px}
+input{width:100%;height:50px;border-radius:12px;border:0;padding:0 14px;font-size:18px;text-align:center}
+button{width:100%;height:50px;margin-top:10px;border-radius:12px;border:0;background:#f3b84f;color:#35316b;font-size:17px;font-weight:700}
+#m{min-height:1.6em;margin:12px 0 0;color:#f7c86a}</style></head><body>
+<form id="f" hidden><h1>AI 시대 정치·민주주의 위험 자문</h1><p>현장에서 안내받은 비밀번호를 넣어 주십시오</p>
+<input id="pw" type="password" autocomplete="current-password" autocapitalize="none" aria-label="비밀번호"><button>열기</button><p id="m" role="status"></p></form>
+<script>
+const P={"salt":"R8IF6m+ZtcFeJWKe2YqZHg==","iv":"6m6oAL8bHkAV866P","iter":600000,"ct":"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"},K='dr_site_key';
+const un=s=>Uint8Array.from(atob(s),c=>c.charCodeAt(0));
+async function open(key){
+  const pt=await crypto.subtle.decrypt({name:'AES-GCM',iv:un(P.iv)},key,un(P.ct));
+  const html=await new Response(new Blob([pt]).stream().pipeThrough(new DecompressionStream('gzip'))).text();
+  document.open();document.write(html);document.close();
+}
+async function fromPw(pw){
+  const base=await crypto.subtle.importKey('raw',new TextEncoder().encode(pw),'PBKDF2',false,['deriveKey']);
+  return crypto.subtle.deriveKey({name:'PBKDF2',salt:un(P.salt),iterations:P.iter,hash:'SHA-256'},base,{name:'AES-GCM',length:256},true,['decrypt']);
+}
+(async()=>{
+  const f=document.getElementById('f'),m=document.getElementById('m');
+  if(!window.crypto||!crypto.subtle||!window.DecompressionStream){f.hidden=false;m.textContent='이 브라우저에서는 열 수 없습니다. 크롬이나 사파리 최신 판으로 열어 주십시오.';return;}
+  try{const s=localStorage.getItem(K);if(s){await open(await crypto.subtle.importKey('raw',un(s),'AES-GCM',true,['decrypt']));return;}}catch(e){try{localStorage.removeItem(K);}catch(_){}}
+  f.hidden=false;document.getElementById('pw').focus();
+  f.onsubmit=async e=>{e.preventDefault();m.textContent='여는 중입니다';
+    try{const key=await fromPw(document.getElementById('pw').value.trim());
+      const raw=new Uint8Array(await crypto.subtle.exportKey('raw',key));
+      const html=key;await crypto.subtle.decrypt({name:'AES-GCM',iv:un(P.iv)},key,un(P.ct));
+      try{localStorage.setItem(K,btoa(String.fromCharCode(...raw)));}catch(_){}
+      await open(html);
+    }catch(err){m.textContent='비밀번호가 맞지 않습니다';}};
+})();
+</script></body></html>
